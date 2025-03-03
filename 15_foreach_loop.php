@@ -1,11 +1,14 @@
-
-
 <?php
 //hum es ko for loop say behi use kar skatin hain 
 
- $arr = array("apple", "banan a", "banaa " , "Harpic" , "bread");
+$arr = array("apple", "banan a", "banaa ", "Harpic", "bread");
+$arr2 = array("one", "two", "three", "four");
 
-foreach($arr as $value)
+foreach ($arr as $value) {
+    echo "$value <br>";
+}
+
+foreach($arr2 as $value)
 {
     echo "$value <br>";
 }
@@ -17,14 +20,10 @@ foreach($arr as $value)
 
 
 
- // uayfor loop kay leury behi chall sakt athin laken es ko foreach loop
- // or hum foreahc lop say karo ga
+// uayfor loop kay leury behi chall sakt athin laken es ko foreach loop
+// or hum foreahc lop say karo ga
 //  for($i=0; $i < count($arr);  $i++)
 //  {
 //     echo $arr[$i];
 //     echo "<br>";
 //  }
-
-
-
-?>
