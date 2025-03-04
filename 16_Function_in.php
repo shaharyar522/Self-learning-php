@@ -17,6 +17,7 @@ function processMarks($marksArry)
 // us ko wo sum kar kay value dain ga
 // ahbi main ek function banay liaa hain
 
+//now thi is the array 
 $abdul = [23,45,67,89,10];
 $summarks = processMarks($abdul);
 echo "<br>";
@@ -30,5 +31,38 @@ $summarks_shari = processMarks($shari);
 echo "Now shari is geeting a marsk totla this $summarks_shari"
 
 
+// ab main ek our averg maks ka funcion bana o ga or us main 
+// pahly fucntion ko call karo ga
+
+
+
+
+
+
+
+
+
+
+
+?>
+<br>
+<!-- anohter examploe of avg marks studnet  -->
+<?php
+
+function avgmarks($avgnumber)
+{
+   
+  $sum = 0;
+  $i =1;
+  foreach($avgnumber as $value){
+    $sum += $value;
+    $i++;
+  }
+  return $sum/$i;
+}
+
+$shari2 = [1,2,3,4,5];
+$avg_number = avgmarks($shari2);
+echo "The total avg of shari2 is $avg_number";
 
 ?>
