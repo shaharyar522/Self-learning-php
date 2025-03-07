@@ -37,7 +37,7 @@ $d = date("Ymd");
 echo "Today date is  $d <br>";
 
 echo "<br>";
-echo "<br>";
+
 
 
 
