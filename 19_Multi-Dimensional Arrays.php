@@ -1,7 +1,8 @@
 <?php
 echo "Well come  to Multi - Dimensional Array in php <br> ";
 
-//basically thiis is multi dimensional arrry a one arrray in multiple arrray 
+//basically thiis is multi dimensional arrry a one arrray in multiple array
+
 
 
 
@@ -36,7 +37,6 @@ for ($i=0; $i < count($multiDim); $i++) {
     echo "<br>";
 }
 
-
 ?>
 
 <?php
@@ -70,6 +70,6 @@ for ($i = 0; $i < count($multiDim); $i++) {
     }
     echo "<br>";
 
-    
+
 }
 ?>
