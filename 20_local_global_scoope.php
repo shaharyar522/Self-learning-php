@@ -46,6 +46,27 @@ function hello(){
 hello();
 
 
+echo "<br>";
+
+// anohter example hain hamray pass jo ky hum global variable ko 
+// ko hum local variabel function kay andar es tahran say lehk saktain hain
+$a = 1;
+$b= 2;
+ 
+function sum()
+{
+    global $a,$b;
+    $a = 4;
+    $b = 5;
+    echo "<br>The value  of your variable  is a  $a and $b";
+}
+sum();
+
+echo $b;
+
+
+
+
 
 
 
