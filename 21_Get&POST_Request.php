@@ -47,19 +47,19 @@
 </nav>
 
 <?php
-if($_SERVER['REQUEST_METHOD'] == 'POST'){
 
+if($_SERVER['REQUEST_METHOD'] == 'POST'){
   $email = $_POST['email'];
   $password = $_POST['pass'];
-  echo "<div class='alert alert-primary' role='alert'>
-  A simple primary alert—check it out!
+  echo "<div class='alert alert-success alert-dismissible fade show' role='alert' style='color: white; background-color: #28a745; border-color: #218838;'>
+  Now your email is <strong>$email</strong> and your password is <strong>$password</strong>.
+  <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
 </div>";
-
-
 }
-
-
+// submitted these to a database
 ?>
+
+
 
 <div class="container my-3">
 
