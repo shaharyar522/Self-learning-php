@@ -34,6 +34,8 @@ echo "<br>";
 echo "The value of $x is equal ot $y is " . var_dump($x <= $y) ;
 echo "<br>";
 echo "The value of $x is equal ot $y is " . var_dump($x >= $y) ;
+echo "<br>";
+
 
 /// ab ahum logical operation ko perfomame kara guy 
 echo "<br>";
