@@ -4,10 +4,9 @@ $server_name = "localhost";
 $user_name = "root";
 $password = "";
 
+$conn =  mysqli_connect($server_name, $user_name, $password);
 
 // creating  a connection 
- 
-$conn =  mysqli_connect($server_name, $user_name, $password);
 
 if(!$conn){
     die("sorrry we   failed  to connected  ".mysqli_connect_error());
